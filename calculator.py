@@ -5,7 +5,7 @@ def calculator():
     print("3. Multiplication (*)")
     print("4. Division (/)")
 
-    choice = input("Enter the number for the operation you want to perform (1/2/3/4): ")
+    choice = input("Enter the number for the operation you want to perform : ")
 
     if choice in ['1', '2', '3', '4']:
         n1 = float(input("Enter first number: "))
@@ -30,3 +30,4 @@ def calculator():
         
 if __name__=="__main__":
     calculator()
+
