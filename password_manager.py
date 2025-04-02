@@ -23,9 +23,9 @@ def main():
             return
         
         print("\nSelect Password Complexity:")
-        print("1. Only Alphabets ")
-        print("2. Alphabets and Number")
-        print("3. Alphabets and Number Special Character ")
+        print("1. Weak ")
+        print("2. Medium")
+        print("3. Strong")
         
         choice = input("Enter your choice : ")
         
